@@ -1,0 +1,20 @@
+# Ignore binary files
+*.exe
+*.dll
+*.lib
+*.app
+*.dylib
+*.apk
+*.so
+*.a
+
+# Ignore intermediate and saved files
+/Intermediate/*
+/Saved/*
+!/Saved/Config/Windows/*
+!/Saved/Logs/*
+
+# Ignore build and developer-specific files
+/Binaries/*
+/DerivedDataCache/*
+/Build/*
