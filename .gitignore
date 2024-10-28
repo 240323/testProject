@@ -1,20 +1,15 @@
-# Ignore binary files
-*.exe
-*.dll
-*.lib
-*.app
-*.dylib
-*.apk
-*.so
-*.a
+# ビルド生成物
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vs/
+*.sln
 
-# Ignore intermediate and saved files
-/Intermediate/*
-/Saved/*
-!/Saved/Config/Windows/*
-!/Saved/Logs/*
+# OS固有のファイル
+.DS_Store
+Thumbs.db
 
-# Ignore build and developer-specific files
-/Binaries/*
-/DerivedDataCache/*
-/Build/*
+# その他
+*.log
+*.tmp
