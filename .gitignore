@@ -1,0 +1,15 @@
+# ビルド生成物
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vs/
+*.sln
+
+# OS固有のファイル
+.DS_Store
+Thumbs.db
+
+# その他
+*.log
+*.tmp
